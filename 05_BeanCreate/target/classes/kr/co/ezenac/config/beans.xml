@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans.xsd">
+						
+							
+	<!-- <bean  class="kr.co.ezenac.beans.TestBean">	</bean>		-->			
+	<bean id='test1' class="kr.co.ezenac.beans.TestBean">	</bean>
+	<!-- <bean id='test2' class="kr.co.ezenac.beans.TestBean">	</bean> -->
+	<!--  lazy-init="true" 일 경우 xml을 로딩할 때 객체가 생성되지 않는다. -->
+	<!-- getBean메서드를 호출할 때 생성되고, 동일 id일 때 singleton 그러므로 객체는 하나만 생성 -->
+	<!-- <bean id='test2' class="kr.co.ezenac.beans.TestBean" lazy-init="true">	</bean>	 -->				
+	<!-- scope='prototype': xml을 로딩할 때 객체가 생성되지 않는다.  -->
+	<!-- getBean메서드를 호출할 때마다 새로운 객체를 생성해서 반환한다.  -->
+	<bean id='test3' class="kr.co.ezenac.beans.TestBean" scope="prototype">	</bean>
+						
+</beans>
+
+
