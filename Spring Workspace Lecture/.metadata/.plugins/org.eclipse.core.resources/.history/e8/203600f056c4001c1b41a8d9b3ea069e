@@ -1,0 +1,21 @@
+package kr.co.ezenac.beans;
+
+import java.util.List;
+import java.util.Map;
+import java.util.Properties;
+import java.util.Set;
+
+public class TestBean {
+	private List<String> list1;
+	private List<Integer> list2;
+	private List<DataBean> list3;
+	
+	private Set<String> set1;
+	private Set<Integer> set2;
+	private Set<DataBean> set3;
+	
+	private Map<String, Object> map1;
+	
+	private Properties prop1;
+	
+}

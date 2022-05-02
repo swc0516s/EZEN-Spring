@@ -1,0 +1,19 @@
+package kr.co.ezenac.beans;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class TestBean1 {
+	
+	@Autowired
+	private DataBean1 data1;
+	
+	@Autowired
+	
+	private DataBean2 data2;
+	private DataBean3 data3;
+	private DataBean3 data4;
+	private DataBean3 data5;
+	
+}

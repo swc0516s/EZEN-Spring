@@ -1,0 +1,29 @@
+package kr.co.ezenac.main;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import kr.co.ezenac.beans.TestBean1;
+import kr.co.ezenac.config.BeanConfigClass;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		ClassPathXmlApplicationContext ctx1 = new ClassPathXmlApplicationContext("kr/co/ezenac/config/beans.xml");
+		
+		TestBean1 xml1 = ctx1.getBean("xml1", TestBean1.class);
+		System.out.printf("xml1.data1 : %d\n",xml1.getData1());
+		System.out.printf("xml1.data2 : %s\n",xml1.getData2());
+		System.out.printf("xml1.data3 : %d\n",xml1.getData3());
+		System.out.printf("xml1.data4 : %d\n",xml1.getData4());
+		System.out.printf("xml1.data5 : %d\n",xml1.getData5());
+		System.out.printf("xml1.data6 : %d\n",xml1.getData6());
+		
+		ctx1.close();
+		
+		AnnotationConfigApplicationContext ctx2 = new AnnotationConfigApplicationContext(BeanConfigClass.class);
+		
+		ctx2.close();
+	}
+
+}

@@ -1,0 +1,18 @@
+package kr.co.ezenac.beans;
+
+public class TestBean1 {
+
+	private int data1;
+	private String data2;
+	private DataBean1 data3;
+	
+	public TestBean1() {
+		
+		
+	}
+	
+	public TestBean1(int data1, String data2, DataBEan1 data3) {
+		
+	}
+	
+}

@@ -1,0 +1,14 @@
+package kr.co.ezenac.beans;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class BeanConfigClass {
+	
+	public TestBean1 java1() {
+		TestBean1 t1= new TestBean1();
+		
+		return t1;
+	}
+	
+}

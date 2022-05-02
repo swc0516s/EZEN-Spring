@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;03_SpringBasic/src/main/java/kr.co.ezenac.beans&apos;&#x0D;&#x0A;- Original project: &apos;02_Polymorphism&apos;&#x0D;&#x0A;- Destination element: &apos;03_SpringBasic/src/main/java/kr.co.ezenac.beans&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     kr.co.ezenac.beans.HelloWorldKo.java&#x0D;&#x0A;     kr.co.ezenac.beans.HelloWorld.java&#x0D;&#x0A;     kr.co.ezenac.beans.HelloWorldEn.java" description="Copy compilation units" destination="=03_SpringBasic/src\/main\/java&lt;kr.co.ezenac.beans" element1="/src&lt;kr.co.ezenac.beans{HelloWorldKo.java" element2="/src&lt;kr.co.ezenac.beans{HelloWorld.java" element3="/src&lt;kr.co.ezenac.beans{HelloWorldEn.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1650518384692" units="3" version="1.0"/>
+</session>

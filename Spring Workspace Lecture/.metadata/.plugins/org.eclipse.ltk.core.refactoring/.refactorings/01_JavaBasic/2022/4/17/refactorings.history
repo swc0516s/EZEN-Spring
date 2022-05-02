@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 packages to &apos;02_Polymorphism/src&apos;&#x0D;&#x0A;- Original project: &apos;01_JavaBasic&apos;&#x0D;&#x0A;- Destination element: &apos;02_Polymorphism/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     01_JavaBasic/src/kr.co.ezenac.main&#x0D;&#x0A;     01_JavaBasic/src/kr.co.ezenac.beans" description="Copy packages" destination="=02_Polymorphism/src" element1="/src&lt;kr.co.ezenac.main" element2="/src&lt;kr.co.ezenac.beans" flags="589830" fragments="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1650505427246" version="1.0"/>
+</session>

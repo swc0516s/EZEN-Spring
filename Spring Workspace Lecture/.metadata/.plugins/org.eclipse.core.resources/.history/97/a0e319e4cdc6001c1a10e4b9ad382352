@@ -1,0 +1,11 @@
+package kr.co.ezenac.beans;
+
+import org.springframework.stereotype.Component;
+
+public class TestBean1 {
+	@Component
+	public TestBean1() {
+		System.out.println("TestBean1");
+		
+	}
+}

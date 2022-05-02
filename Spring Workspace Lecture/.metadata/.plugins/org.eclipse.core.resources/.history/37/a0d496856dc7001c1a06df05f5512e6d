@@ -1,0 +1,6 @@
+package kr.co.ezenac.beans;
+
+@Component
+public class TestBean2 {
+
+}

@@ -1,0 +1,11 @@
+package kr.co.ezenac.beans;
+
+public class TestBean1 {
+	private int data1;
+	private DataBean1 data2;
+	private DataBean1 data3;
+	private DataBean2 data4;
+	private DataBean2 data5;
+	private DataBean2 data6;
+	
+}

@@ -1,0 +1,7 @@
+package kr.co.ezenac.config;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class BeanConfigClass {
+	ClassPathXmlApplicationContext ctx1 = new ClassPathXmlApplicationContext("kr/co/ezenac/config/beans.xml");
+}

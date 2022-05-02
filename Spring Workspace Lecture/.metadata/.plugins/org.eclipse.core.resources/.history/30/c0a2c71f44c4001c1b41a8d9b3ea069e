@@ -1,0 +1,28 @@
+package kr.co.ezenac.main;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import kr.co.ezenac.beans.TestBean;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		TestBean tb = new TestBean();
+		
+		tb.setData1(123);
+		tb.setData2(data2);
+		tb.setData3(data3);
+		tb.setData4(data4);
+		tb.setData5(data5);
+		tb.setData6(data6);
+		
+		
+		ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("kr/co/ezenac/config/beans.xml");
+
+		
+	
+		
+		ctx.close();
+	}
+
+}

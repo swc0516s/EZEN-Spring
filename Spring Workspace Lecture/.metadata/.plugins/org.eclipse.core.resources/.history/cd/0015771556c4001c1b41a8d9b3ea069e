@@ -1,0 +1,11 @@
+package kr.co.ezenac.beans;
+
+import java.util.List;
+
+public class TestBean {
+	private List<String> list1;
+	private List<Integer> list2;
+	
+	
+	
+}

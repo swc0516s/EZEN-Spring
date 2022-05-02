@@ -1,0 +1,21 @@
+package kr.co.ezenac.main;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import kr.co.ezenac.beans.TestBean1;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext();
+		
+		TestBean1 obj1=ctx.getBean("obj1", TestBean1.class);
+
+		obj1.destroy1();
+		
+		
+		ctx.close();
+		
+	}
+
+}

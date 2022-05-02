@@ -1,0 +1,12 @@
+package kr.co.ezenac.beans2;
+
+public class TestBean3 {
+
+	// Bean으로 등록한다
+	// 이름이 없기 때문에 타입을 통해서 받아낼 수 있다. beans.xml 에서 타입만 변경하면 정의한 것과 같음
+	// 하나으 타입을가지고 중복하지 않고 이름 없이 사용할 경우 편리
+
+	public class TestBean3 {
+
+	}
+}

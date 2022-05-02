@@ -1,0 +1,7 @@
+package kr.co.ezenac.beans;
+
+
+@Component
+public class DataBean4 {
+
+}

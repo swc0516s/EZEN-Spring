@@ -1,0 +1,8 @@
+package kr.co.ezenac.beans;
+
+public class TestBean2 {
+
+	public TestBean2() {
+		System.out.println("TestBean1의 생성자");
+	}
+}

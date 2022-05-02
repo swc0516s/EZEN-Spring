@@ -1,0 +1,14 @@
+package kr.co.ezenac.beans;
+
+public class TestBean2 {
+	private DataBean data1;
+	private DataBean data2;
+	
+	public TestBean2(DataBean data1, DataBean Data2) {
+		this.data1=null;
+		this.data2=null;
+		
+		
+	}
+	
+}

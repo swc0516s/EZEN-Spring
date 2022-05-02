@@ -1,0 +1,7 @@
+package kr.co.ezenac.beans;
+
+@Configuration
+public class BeanConfigClass {
+	
+	
+}
