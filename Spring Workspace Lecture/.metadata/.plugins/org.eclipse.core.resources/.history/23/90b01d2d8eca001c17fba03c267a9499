@@ -1,0 +1,23 @@
+package kr.co.ezenac.db;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import kr.co.ezenac.beans.JdbcBean;
+import kr.co.ezenac.config.MapperClass;
+
+public class JdbcDAO {
+	
+	@Autowired
+	private JdbcTemplate db;
+	
+	@Autowired
+	private MapperClass mapper;
+
+	
+	//저장
+	public void insert_data(JdbcBean Bean){
+		String sql="jdbc_table";
+		
+	}
+}

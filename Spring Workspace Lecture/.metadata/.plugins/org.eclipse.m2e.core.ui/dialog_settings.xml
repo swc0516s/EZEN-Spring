@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Java Emp Class Lecture 2021-12-27\Spring Emp Class Lecture\Spring Workspace Lecture\23_SpringJDBC\src\main\java\kr\co\ezenac\main\MainClass.java"/>
+			<item value="D:\Java Emp Class Lecture 2021-12-27\Spring Emp Class Lecture\Spring Workspace Lecture\22_AOPJava\src\main\java\kr\co\ezenac\main\MainClass.java"/>
 			<item value="D:\Java Emp Class Lecture 2021-12-27\Spring Emp Class Lecture\Spring Workspace Lecture\19_ComponentAutowired\src\main\java\kr\co\ezenac\config\BeanConfigClass.java"/>
 			<item value="D:\Java Emp Class Lecture 2021-12-27\Spring Emp Class Lecture\Spring Workspace Lecture\17_Component\src\main\java\kr\co\ezenac\config\beans.xml"/>
 			<item value="D:\Java Emp Class Lecture 2021-12-27\Spring Emp Class Lecture\Spring Workspace Lecture\16_JSR250"/>
@@ -57,6 +59,10 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="24_MyBatis"/>
+			<item value="23_SpringJDBC"/>
+			<item value="22_AOPJava"/>
+			<item value="21_ExecutionDirective"/>
 			<item value="20_AOPXML"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -72,7 +78,21 @@
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="529"/>
+		<item key="x" value="364"/>
+		<item key="y" value="80"/>
 	</section>
 </section>

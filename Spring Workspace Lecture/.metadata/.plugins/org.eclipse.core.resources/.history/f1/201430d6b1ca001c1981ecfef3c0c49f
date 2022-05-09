@@ -1,0 +1,33 @@
+package kr.co.ezenac.config;
+
+import org.apache.commons.dbcp2.BasicDataSource;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan(basePackages = { "kr.co.ezenac.beans" })
+public class BeanConfigClass {
+
+	// DataSource
+	@Bean
+	public BasicDataSource source() {
+		BasicDataSource source = new BasicDataSource();
+		source.setDriverClassName("oracle.jdbc.OracleDriver");
+		source.setUrl("jdbc:oracle:thin:@localhost:1521:xe");
+		source.setUsername("scott");
+		source.setPassword("tiger");
+
+		return source;
+	}
+
+	
+	//SqlSessionFactory : jdbc를 처리하는 객체
+	@Bean
+	public SqlSessionFactory factory(BasicDataSource source) throw Exception{
+		SqlSessionFactory factoryBean = new SqlSessionFactory();
+		
+	}
+	
+}

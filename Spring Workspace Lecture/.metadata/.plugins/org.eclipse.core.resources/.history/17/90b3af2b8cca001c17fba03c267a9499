@@ -1,0 +1,19 @@
+package kr.co.ezenac.config;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import org.springframework.stereotype.Component;
+
+import kr.co.ezenac.beans.JdbcBean;
+
+@Component
+public class MapperClass implements RowMapper<JdbcBean>{
+	
+	public JdbcBean mapRow(ResultSet re, int rowNum) throws SQLException{
+		
+		
+		
+	}
+
+}

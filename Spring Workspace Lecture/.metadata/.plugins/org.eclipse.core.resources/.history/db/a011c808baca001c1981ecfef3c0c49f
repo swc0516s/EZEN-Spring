@@ -1,0 +1,26 @@
+package kr.co.ezenac.main;
+
+import java.util.List;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import kr.co.ezenac.beans.JdbcBean;
+import kr.co.ezenac.config.BeanConfigClass;
+import kr.co.ezenac.mapper.MapperInterface;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(BeanConfigClass.class);
+
+		MapperInterface mapper = ctx.getBean("test_mapper",MapperInterface.class);
+		List<JdbcBean> list1=mapper.select_data();
+		
+		for(JdbcBean bean1 : list1) {
+			System.out.printf("int_data : %d\n",bean1.getInt_data());
+			
+		}
+		ctx.close();
+	}
+
+}
